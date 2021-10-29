@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const name = 'Krzyssztof Gayewsky';
+const elem = <h1>Hello, {name}</h1>;
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
